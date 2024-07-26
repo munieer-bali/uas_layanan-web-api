@@ -1,0 +1,30 @@
+###
+GET http://localhost:5000/akuns
+
+###
+GET http://localhost:5000/akuns/7
+
+###
+POST http://localhost:5000/akuns
+Content-Type: application/json 
+
+{
+    "name": "maria sania",
+    "email": "mariasania@gmail.com",
+    "password": "123456578",
+    "tipeAkun": "basic"
+}
+
+###
+PATCH http://localhost:5000/akuns/8
+Content-Type: application/json
+
+{
+    "name": "maria hoss maning",
+    "email": "maria1@gmail.com",
+    "password": "123456578910",
+    "tipeAkun": "basic"
+}
+
+###
+DELETE http://localhost:5000/akuns/8
